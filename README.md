@@ -29,10 +29,13 @@ planning.
 ## Tech Stack:
 ● `Python:` Utilized for scripting the ETL processes, data cleaning, transformation,
 and analysis tasks due to its powerful libraries like pandas and NumPy.
+
 ● `Azure Blob Storage:` Chosen for its scalability and reliability, serving as the
 centralized data repository for storing processed data.
+
 ● `Github:` Used for version control, allowing for collaborative development and
 maintenance of the ETL scripts and other project documents.
+
 ● `Apache Airflow:` Orchestrates the ETL processes, scheduling jobs efficiently and
 monitoring the workflow of data through various stages of the pipeline.
 
@@ -43,6 +46,7 @@ monitoring the workflow of data through various stages of the pipeline.
 Extract data from various CSV files into a Pandas DataFrame. This step
 involves reading large datasets efficiently, handling different data formats, and
 managing incomplete or corrupt data files.
+
 #### Data Transformation:
 ○ Clean the extracted data to remove inconsistencies, duplicates, and handle
 missing values.
@@ -64,6 +68,7 @@ operations, ensuring that the data flows smoothly from extraction through to loa
 logging and error handling to manage failures or retries effectively.
 ○ This case study outlines the strategic approach for utilizing advanced data engineering
 techniques to drive operational improvements and business growth for Zipco Foods.
+
 ![airflow](https://github.com/user-attachments/assets/7532982b-4508-417f-a689-67697a40bd2b)
 
 
