@@ -56,6 +56,7 @@ managing incomplete or corrupt data files.
 #### Data Transformation:
 `○` Clean the extracted data to remove inconsistencies, duplicates, and handle
 missing values.
+
 `○` Transform the data to fit into a designed schema that adheres to the principles
 of 2NF and 3NF. This involves decomposing tables to reduce redundancy,
 ensuring referential integrity, and optimizing the schema for query performance.
@@ -66,12 +67,15 @@ ensuring referential integrity, and optimizing the schema for query performance.
 #### Data Loading:
 `○` Load the cleaned and transformed data into Azure Blob Storage, which serves as the
 centralized repository for all analytical data.
+
 `○` Implement version control using GitHub to maintain revisions of the data transformation
 scripts and other configurations.
+
 `○` Use Apache Airflow to orchestrate the entire ETL process. Define DAGs (Directed Acyclic
 Graphs) to manage the workflow of tasks including dependencies and sequence of
 operations, ensuring that the data flows smoothly from extraction through to loading, with
 logging and error handling to manage failures or retries effectively.
+
 `○` This case study outlines the strategic approach for utilizing advanced data engineering
 techniques to drive operational improvements and business growth for Zipco Foods.
 
