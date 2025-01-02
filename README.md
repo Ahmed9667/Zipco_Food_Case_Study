@@ -14,15 +14,21 @@ aggregation and analysis.
 ### `Objectives:`
 ● Implement a streamlined ETL (Extract, Transform, Load) pipeline to automate data processing and
 ensure data consistency.
+
 ● Design a database schema that supports efficient data retrieval and scalability while adhering to
 2NF/3NF normalization standards.
+
 ● Develop a system for real-time data analytics to aid in decision-making processes.
+
 ● Ensure robust data governance and compliance through effective version control and data
 orchestration.
 ### `Benefits:`
 ● Enhanced decision-making capabilities through real-time, accurate data analytics.
+
 ● Improved operational efficiency and reduced manual labor by automating data processes.
+
 ● Greater scalability and flexibility in data management, accommodating future business growth.
+
 ● Strengthened data integrity and reliability, ensuring high-quality information for strategic
 planning.
 
@@ -48,9 +54,9 @@ involves reading large datasets efficiently, handling different data formats, an
 managing incomplete or corrupt data files.
 
 #### Data Transformation:
-○ Clean the extracted data to remove inconsistencies, duplicates, and handle
+`○` Clean the extracted data to remove inconsistencies, duplicates, and handle
 missing values.
-○ Transform the data to fit into a designed schema that adheres to the principles
+`○` Transform the data to fit into a designed schema that adheres to the principles
 of 2NF and 3NF. This involves decomposing tables to reduce redundancy,
 ensuring referential integrity, and optimizing the schema for query performance.
 
@@ -58,15 +64,15 @@ ensuring referential integrity, and optimizing the schema for query performance.
 
 
 #### Data Loading:
-○ Load the cleaned and transformed data into Azure Blob Storage, which serves as the
+`○` Load the cleaned and transformed data into Azure Blob Storage, which serves as the
 centralized repository for all analytical data.
-○ Implement version control using GitHub to maintain revisions of the data transformation
+`○` Implement version control using GitHub to maintain revisions of the data transformation
 scripts and other configurations.
-○ Use Apache Airflow to orchestrate the entire ETL process. Define DAGs (Directed Acyclic
+`○` Use Apache Airflow to orchestrate the entire ETL process. Define DAGs (Directed Acyclic
 Graphs) to manage the workflow of tasks including dependencies and sequence of
 operations, ensuring that the data flows smoothly from extraction through to loading, with
 logging and error handling to manage failures or retries effectively.
-○ This case study outlines the strategic approach for utilizing advanced data engineering
+`○` This case study outlines the strategic approach for utilizing advanced data engineering
 techniques to drive operational improvements and business growth for Zipco Foods.
 
 ![airflow](https://github.com/user-attachments/assets/7532982b-4508-417f-a689-67697a40bd2b)
